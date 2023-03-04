@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CLAMVC.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CLAMVC.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLAMVC.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CLAMVC.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CLAMVC.Domain/CLAMVC.Domain.csproj",
+      "msbuildProject": "../CLAMVC.Domain/CLAMVC.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "CLAMVC.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Administrador\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GITHUB\\CLAMVC\\CLAMVC.Domain\\CLAMVC.Domain.csproj": {
+              "projectPath": "D:\\GITHUB\\CLAMVC\\CLAMVC.Domain\\CLAMVC.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

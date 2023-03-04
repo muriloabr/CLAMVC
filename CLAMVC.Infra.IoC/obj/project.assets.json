@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CLAMVC.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CLAMVC.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CLAMVC.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLAMVC.Application.dll": {}
+        }
+      },
+      "CLAMVC.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CLAMVC.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLAMVC.Domain.dll": {}
+        }
+      },
+      "CLAMVC.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CLAMVC.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CLAMVC.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLAMVC.Infra.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CLAMVC.Application/1.0.0": {
+      "type": "project",
+      "path": "../CLAMVC.Application/CLAMVC.Application.csproj",
+      "msbuildProject": "../CLAMVC.Application/CLAMVC.Application.csproj"
+    },
+    "CLAMVC.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CLAMVC.Domain/CLAMVC.Domain.csproj",
+      "msbuildProject": "../CLAMVC.Domain/CLAMVC.Domain.csproj"
+    },
+    "CLAMVC.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../CLAMVC.Infra.Data/CLAMVC.Infra.Data.csproj",
+      "msbuildProject": "../CLAMVC.Infra.Data/CLAMVC.Infra.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "CLAMVC.Application >= 1.0.0",
+      "CLAMVC.Domain >= 1.0.0",
+      "CLAMVC.Infra.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Administrador\\.nuget\\packages\\": {},
@@ -38,7 +95,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GITHUB\\CLAMVC\\CLAMVC.Application\\CLAMVC.Application.csproj": {
+              "projectPath": "D:\\GITHUB\\CLAMVC\\CLAMVC.Application\\CLAMVC.Application.csproj"
+            },
+            "D:\\GITHUB\\CLAMVC\\CLAMVC.Domain\\CLAMVC.Domain.csproj": {
+              "projectPath": "D:\\GITHUB\\CLAMVC\\CLAMVC.Domain\\CLAMVC.Domain.csproj"
+            },
+            "D:\\GITHUB\\CLAMVC\\CLAMVC.Infra.Data\\CLAMVC.Infra.Data.csproj": {
+              "projectPath": "D:\\GITHUB\\CLAMVC\\CLAMVC.Infra.Data\\CLAMVC.Infra.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

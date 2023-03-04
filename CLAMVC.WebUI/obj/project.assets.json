@@ -285,6 +285,57 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "CLAMVC.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CLAMVC.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CLAMVC.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLAMVC.Application.dll": {}
+        }
+      },
+      "CLAMVC.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CLAMVC.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLAMVC.Domain.dll": {}
+        }
+      },
+      "CLAMVC.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CLAMVC.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CLAMVC.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLAMVC.Infra.Data.dll": {}
+        }
+      },
+      "CLAMVC.Infra.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CLAMVC.Application": "1.0.0",
+          "CLAMVC.Domain": "1.0.0",
+          "CLAMVC.Infra.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CLAMVC.Infra.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLAMVC.Infra.IoC.dll": {}
+        }
       }
     }
   },
@@ -756,10 +807,31 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "CLAMVC.Application/1.0.0": {
+      "type": "project",
+      "path": "../CLAMVC.Application/CLAMVC.Application.csproj",
+      "msbuildProject": "../CLAMVC.Application/CLAMVC.Application.csproj"
+    },
+    "CLAMVC.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CLAMVC.Domain/CLAMVC.Domain.csproj",
+      "msbuildProject": "../CLAMVC.Domain/CLAMVC.Domain.csproj"
+    },
+    "CLAMVC.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../CLAMVC.Infra.Data/CLAMVC.Infra.Data.csproj",
+      "msbuildProject": "../CLAMVC.Infra.Data/CLAMVC.Infra.Data.csproj"
+    },
+    "CLAMVC.Infra.IoC/1.0.0": {
+      "type": "project",
+      "path": "../CLAMVC.Infra.IoC/CLAMVC.Infra.IoC.csproj",
+      "msbuildProject": "../CLAMVC.Infra.IoC/CLAMVC.Infra.IoC.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CLAMVC.Infra.IoC >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.17"
     ]
   },
@@ -794,7 +866,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GITHUB\\CLAMVC\\CLAMVC.Infra.IoC\\CLAMVC.Infra.IoC.csproj": {
+              "projectPath": "D:\\GITHUB\\CLAMVC\\CLAMVC.Infra.IoC\\CLAMVC.Infra.IoC.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

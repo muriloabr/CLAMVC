@@ -359,3 +359,11 @@ D:\GITHUB\CLAMVC\CLAMVC.WebUI\obj\Debug\net5.0\refint\CLAMVC.WebUI.dll
 D:\GITHUB\CLAMVC\CLAMVC.WebUI\obj\Debug\net5.0\CLAMVC.WebUI.pdb
 D:\GITHUB\CLAMVC\CLAMVC.WebUI\obj\Debug\net5.0\CLAMVC.WebUI.genruntimeconfig.cache
 D:\GITHUB\CLAMVC\CLAMVC.WebUI\obj\Debug\net5.0\ref\CLAMVC.WebUI.dll
+D:\GITHUB\CLAMVC\CLAMVC.WebUI\bin\Debug\net5.0\CLAMVC.Application.dll
+D:\GITHUB\CLAMVC\CLAMVC.WebUI\bin\Debug\net5.0\CLAMVC.Domain.dll
+D:\GITHUB\CLAMVC\CLAMVC.WebUI\bin\Debug\net5.0\CLAMVC.Infra.Data.dll
+D:\GITHUB\CLAMVC\CLAMVC.WebUI\bin\Debug\net5.0\CLAMVC.Infra.IoC.dll
+D:\GITHUB\CLAMVC\CLAMVC.WebUI\bin\Debug\net5.0\CLAMVC.Infra.IoC.pdb
+D:\GITHUB\CLAMVC\CLAMVC.WebUI\bin\Debug\net5.0\CLAMVC.Application.pdb
+D:\GITHUB\CLAMVC\CLAMVC.WebUI\bin\Debug\net5.0\CLAMVC.Domain.pdb
+D:\GITHUB\CLAMVC\CLAMVC.WebUI\bin\Debug\net5.0\CLAMVC.Infra.Data.pdb

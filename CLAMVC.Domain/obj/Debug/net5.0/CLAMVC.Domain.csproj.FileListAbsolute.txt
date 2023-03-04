@@ -1,0 +1,12 @@
+D:\GITHUB\CLAMVC\CLAMVC.Domain\bin\Debug\net5.0\CLAMVC.Domain.deps.json
+D:\GITHUB\CLAMVC\CLAMVC.Domain\bin\Debug\net5.0\CLAMVC.Domain.dll
+D:\GITHUB\CLAMVC\CLAMVC.Domain\bin\Debug\net5.0\CLAMVC.Domain.pdb
+D:\GITHUB\CLAMVC\CLAMVC.Domain\obj\Debug\net5.0\CLAMVC.Domain.csproj.AssemblyReference.cache
+D:\GITHUB\CLAMVC\CLAMVC.Domain\obj\Debug\net5.0\CLAMVC.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GITHUB\CLAMVC\CLAMVC.Domain\obj\Debug\net5.0\CLAMVC.Domain.AssemblyInfoInputs.cache
+D:\GITHUB\CLAMVC\CLAMVC.Domain\obj\Debug\net5.0\CLAMVC.Domain.AssemblyInfo.cs
+D:\GITHUB\CLAMVC\CLAMVC.Domain\obj\Debug\net5.0\CLAMVC.Domain.csproj.CoreCompileInputs.cache
+D:\GITHUB\CLAMVC\CLAMVC.Domain\obj\Debug\net5.0\CLAMVC.Domain.dll
+D:\GITHUB\CLAMVC\CLAMVC.Domain\obj\Debug\net5.0\refint\CLAMVC.Domain.dll
+D:\GITHUB\CLAMVC\CLAMVC.Domain\obj\Debug\net5.0\CLAMVC.Domain.pdb
+D:\GITHUB\CLAMVC\CLAMVC.Domain\obj\Debug\net5.0\ref\CLAMVC.Domain.dll

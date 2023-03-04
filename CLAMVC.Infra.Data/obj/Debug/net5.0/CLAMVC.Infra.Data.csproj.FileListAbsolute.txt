@@ -1,0 +1,15 @@
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\bin\Debug\net5.0\CLAMVC.Infra.Data.deps.json
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\bin\Debug\net5.0\CLAMVC.Infra.Data.dll
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\bin\Debug\net5.0\CLAMVC.Infra.Data.pdb
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\bin\Debug\net5.0\CLAMVC.Domain.dll
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\bin\Debug\net5.0\CLAMVC.Domain.pdb
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\obj\Debug\net5.0\CLAMVC.Infra.Data.csproj.AssemblyReference.cache
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\obj\Debug\net5.0\CLAMVC.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\obj\Debug\net5.0\CLAMVC.Infra.Data.AssemblyInfoInputs.cache
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\obj\Debug\net5.0\CLAMVC.Infra.Data.AssemblyInfo.cs
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\obj\Debug\net5.0\CLAMVC.Infra.Data.csproj.CoreCompileInputs.cache
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\obj\Debug\net5.0\CLAMVC.Infra.Data.csproj.CopyComplete
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\obj\Debug\net5.0\CLAMVC.Infra.Data.dll
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\obj\Debug\net5.0\refint\CLAMVC.Infra.Data.dll
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\obj\Debug\net5.0\CLAMVC.Infra.Data.pdb
+D:\GITHUB\CLAMVC\CLAMVC.Infra.Data\obj\Debug\net5.0\ref\CLAMVC.Infra.Data.dll
